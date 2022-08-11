@@ -7,61 +7,172 @@
     <title>Home work 1</title>
 </head>
 <body>
-    <header>
-        <nav>
-            <ul>
-                <li><a href="index.html">WebStudio</a></li>
-                <li><a href="">Студія</a></li>
-                <li><a href="">Портфоліо</a></li>
-                <li><a href="">Контакти</a></li>
+    <header class="header">
+        <nav class="nav">
+            <ul class="list">
+                <li class="list-iteam">
+                    <a class="link" href="">Студія</a>
+                </li>
+                <li class="list-iteam">
+                    <a class="link" href="index.html">WebStudio</a>
+                </li>
+                <li class="list-iteam">
+                    <a class="link" href="">Портфоліо</a>
+                </li>
+                <li class="list-iteam">
+                    <a class="link" href="">Контакти</a>
+                </li>
             </ul>
         </nav>
         
-        <div>
-            <ul>
-                <li><button type="button">info@devstudio.com</button></li>
-                <li><a href="tel:+380961111111">+38 096 111 11 11</a></li>
-            </ul>
+        <div class="header-group">
+            <button class="btn" type="button">info@devstudio.com</button>
+            <a class="link" href="tel:+380961111111">+38 096 111 11 11</a>
         </div>
 
     </header>
     <main>
-        <div>
-            <section>
-                <h1>ЕФЕКТИВНІ РІШЕННЯ ДЛЯ <br>ВАШОГО БІЗНЕСУ</h1>
-                <a href="">Замовити послугу</a>
+        <!--ЕФЕКТИВНІ РІШЕННЯ ДЛЯ ВАШОГО БІЗНЕСУ кнопка замовити послугу-->
+        <div class="main-group">
+            <section class="section">
+                <h1 class="main-title">ЕФЕКТИВНІ РІШЕННЯ ДЛЯ <br>ВАШОГО БІЗНЕСУ</h1>
+                <a class="link" href="">Замовити послугу</a>
             </section>
         </div>
+        <!--Наші особливості-->
+        <section class="section">
 
-        <section>
-            <h2>Наші переваги</h2>
-            <ul>
-                <li>
-                    <h3>УВАГА ДО ДЕТАЛЕЙ</h3>
-                    <p>
+            <h2 class="features-title">
+                Особливості
+            </h2>
+            <ul class="list">
+                <li class="list-iteam">
+                    <h3 class="features-title">
+                        УВАГА ДО ДЕТАЛЕЙ
+                    </h3>
+                    <p class="features-title-description">
                         Ідейні міркування, і навіть початок повсякденної роботи з формування позиції.
                     </p>
                 </li>
-                <li>
-                    <h3>ПУНКТУАЛЬНІСТЬ</h3>
-                    <p>
+                <li class="list-iteam">
+                    <h3 class="features-title">
+                        ПУНКТУАЛЬНІСТЬ
+                    </h3>
+                    <p class="features-title-description">
                         Завдання організації, особливо рамки і місце навчання кадрів тягне у себе.
                     </p>
                 </li>
-                <li>
-                    <h3>ПЛАНУВАННЯ</h3>
-                    <p>
+                <li class="list-iteam">
+                    <h3 class="features-title">
+                        ПЛАНУВАННЯ
+                    </h3>
+                    <p class="features-title-description">
                         Так само консультація з широким активом значною мірою зумовлює.
                     </p>
                 </li>
-            </li>
-            <li>
-                <h3>СУЧАСНІ ТЕХНОЛОГІЇ</h3>
-                <p>
-                    Значимість цих проблем настільки очевидна, що реалізація планових завдань.
-                </p>
-            </li>
+                 <li>
+                    <h3 class="features-title">
+                         СУЧАСНІ ТЕХНОЛОГІЇ
+                    </h3>
+                        <p class="features-title-description">
+                         Значимість цих проблем настільки очевидна, що реалізація планових завдань.
+                        </p>
+                 </li>
             </ul>
+        </section>
+        <!--Чим ми займаємось-->
+        <section>
+            <h3>
+                Чим ми займаємося
+            </h3>
+            <ul class="list">
+                
+                <li class="list-iteam">
+                    <img class="img" 
+                    src="./images/what-we-do/img1.jpg" 
+                    alt="" 
+                    width="370" 
+                    height="294">
+                </li>
+
+                <li class="list-iteam">
+                    <img 
+                    class="img" 
+                    src="./images/what-we-do/img2.jpg" 
+                    alt="" 
+                    width="370" 
+                    height="294">
+                </li>
+
+                <li class="list-iteam">
+                    <img 
+                    class="img" 
+                    src="./images/what-we-do/img3.jpg" 
+                    alt="" 
+                    width="370" 
+                    height="294">
+                </li>
+
+            </ul>
+        </section>
+        
+        <!--Наша команда-->
+        <section class="section">
+
+            <h3 class="team-title">
+                Наша команда
+            </h3>
+            <ul class="list">
+                <li class="list-item">
+                    <img class="img" src="./images/our-team/photo1.jpg" 
+                    alt="Ігор Дем'яненко" 
+                    width="270" 
+                    height="260">
+                    <h4 class="team-name">
+                        Ігор Дем'яненко
+                    </h4>
+                    <p class="team-positiom">
+                        Product Designer
+                    </p>
+                </li>
+                <li class="list-item">
+                    <img class="img" src="./images/our-team/photo2.jpg" 
+                    alt="Ольга Рєпіна" 
+                    width="270" 
+                    height="260">
+                    <h4 class="team-name">
+                        Ольга Рєпіна
+                    </h4>
+                    <p class="team-positiom">
+                        Frontend Developer
+                    </p>
+                </li>
+                <li class="list-item">
+                    <img class="img" src="./images/our-team/photo3.jpg" 
+                    alt="Микола Тарасов" 
+                    width="270" 
+                    height="260">
+                    <h4 class="team-name">
+                        Микола Тарасов
+                    </h4>
+                    <p class="team-positiom">
+                        Marketing
+                    </p>
+                </li>
+                <li class="list-item">
+                    <img class="img" src="./images/our-team/photo4.jpg" 
+                    alt="Михайло Єрмаков" 
+                    width="270" 
+                    height="260">
+                    <h4 class="team-name">
+                        Михайло Єрмаков
+                    </h4>
+                    <p class="team-positiom">
+                        UI Designer
+                    </p>
+                </li>
+            </ul>
+
         </section>
     </main>
 
